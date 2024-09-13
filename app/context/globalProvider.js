@@ -5,6 +5,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import { useUser } from "@clerk/nextjs";
 
+
 export const GlobalContext = createContext();
 export const GlobalUpdateContext = createContext();
 
